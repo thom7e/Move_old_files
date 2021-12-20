@@ -45,3 +45,5 @@ def old_files_(root_src_dir,year):
     datei = open(f'{root_src_dir}\\anzahl_dateien.txt','w')
     datei.write(f"Insgesamt gelöschte Dateien: {counter}")
     datei.close()
+ 
+old_files_(root_src_dir,year)
